@@ -1,0 +1,63 @@
+/**BIG FAT DARUMA
+ * The first commented line is your dabblet’s title
+ */
+ 
+ /*Covered By Your Grace*/
+
+
+ 
+h1 {font-size: 4em;
+	color: black;
+	font-family: Covered By Your Grace, cursive;
+
+	text-align:center;
+	
+}
+	
+h2 {font-size: 2em;
+	color: #cc0033;
+	font-family: Covered By Your Grace, cursive;
+
+	text-align:center;
+}	
+p {
+	font-size: 1em;
+	font-family: 'Inder', sans-serif;
+	text-align:center;
+}
+ 
+body {
+
+background: linear-gradient(bottom, white, moccasin);
+
+min-height:100%;
+}
+
+.clear {
+
+font-size: 1em;
+font-family: 'Inder', sans-serif;
+
+}
+
+.handwrite {
+
+font-size: 2em;
+font-family: Covered By Your Grace, cursive;
+
+
+}
+
+
+
+#header {
+	height: 45px;
+	position: fixed;
+	min-width: 1285px;
+	background-color: #cc0033;
+    box-shadow: 0 0 30px #ddd;
+    top: 0;
+    left: 0;
+    right: 0;
+    
+    }
