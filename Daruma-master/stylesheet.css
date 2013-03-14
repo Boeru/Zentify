@@ -2,14 +2,14 @@
  * The first commented line is your dabblet’s title
  */
  
- /*Covered By Your Grace*/
+ 
 
 
  
 h1 {font-size: 4em;
 	color: black;
 	font-family: Covered By Your Grace, cursive;
-
+	glow: 0 0 30px #ddd;
 	text-align:center;
 	
 }
@@ -27,16 +27,15 @@ p {
 }
  
 body {
+background: linear-gradient( 0deg, white, moccasin ); /* Gradient for Mozilla */
 
-background: linear-gradient(bottom, white, moccasin);
-
-min-height:100%;
-}
+background-image: -webkit-linear-gradient(bottom, white, moccasin); 
+}/* Gradient for Chrome */
 
 .clear {
 
-font-size: 1em;
-font-family: 'Inder', sans-serif;
+font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+   font-weight: 300;
 
 }
 
