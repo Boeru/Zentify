@@ -1,6 +1,6 @@
-Daruma
+DigiDaruma
 ======
-"Daruma is my simple hello world html5.
+DigiDaruma is my simple hello world html5 project.
 
 Daruma is regarded as a talisman of good luck to the Japanese and has a design that is rich in symbolism. Daruma dolls are seen as a symbol of perseverance and good luck, making them a popular gift of encouragement.
 
@@ -17,6 +17,6 @@ I am working on adding not more than the most important features:
 
 
 Most important I want to make it a fun and fascinating little web app for people of any given age. 
-"
+
 
 
