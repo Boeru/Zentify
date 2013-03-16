@@ -1,15 +1,101 @@
-<!-- content to be placed inside <body>…</body> -->
+
 <!DOCTYPE html>
+<!-- HTML5 Mobile Boilerplate -->
+<!--[if IEMobile 7]><html class="no-js iem7"><![endif]-->
+<!--[if (gt IEMobile 7)|!(IEMobile)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+
+<!-- HTML5 Boilerplate -->
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
 
 <head> 
+
+
+
+<meta charset="utf-8">
+	<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+	<title>Reach your goals with #DigiDaruma</title>
+	<meta name="description" content="#DigiDaruma helps everyone to achieve her/his goals. Follow step by step the instructions and become a better you.">
+	<meta name="keywords" content="Daruma, html5, hello world, web design">
+
+	<meta name="author" content="Boris Friedrich Milkowski @ideeeedit">
+
+	<meta http-equiv="cleartype" content="on">
+
+	<!--<link rel="shortcut icon" href="/favicon.ico">-->
 	<!--display Japanese correctly*/-->
 	<meta http-equiv="content-type" content="text/html; charset=utf-8">
 
-<link href='http://fonts.googleapis.com/css?family=Covered+By+Your+Grace' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Inder' rel='stylesheet' type='text/css'>
-<link type="text/css" rel='stylesheet' href='daruma.css'/>
+<!-- Responsive and mobile friendly stuff -->
+	<meta name="HandheldFriendly" content="True">
+	<meta name="MobileOptimized" content="320">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Stylesheets GoogleFonts -->
+
+	<link href='http://fonts.googleapis.com/css?family=Covered+By+Your+Grace' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Inder' rel='stylesheet' type='text/css'>
+	
+<!-- Daruma Custom Stylesheets -->
+	<link type="text/css" rel='stylesheet' href='daruma.css'/>
+
+<!-- gridsystem Stylesheets -->
+
+	<link rel="stylesheet" href="css/html5reset.css" media="all">
+	<link rel="stylesheet" href="css/responsivegridsystem.css" media="all">
+	<link rel="stylesheet" href="css/col.css" media="all">
+	<link rel="stylesheet" href="css/2cols.css" media="all">
+	<link rel="stylesheet" href="css/3cols.css" media="all">
+	<link rel="stylesheet" href="css/4cols.css" media="all">
+	<link rel="stylesheet" href="css/5cols.css" media="all">
+	<link rel="stylesheet" href="css/6cols.css" media="all">
+	<link rel="stylesheet" href="css/7cols.css" media="all">
+	<link rel="stylesheet" href="css/8cols.css" media="all">
+	<link rel="stylesheet" href="css/9cols.css" media="all">
+	<link rel="stylesheet" href="css/10cols.css" media="all">
+	<link rel="stylesheet" href="css/11cols.css" media="all">
+	<link rel="stylesheet" href="css/12cols.css" media="all">
+
+<!-- Responsive Stylesheets -->
+	<link rel="stylesheet" media="only screen and (max-width: 1024px) and (min-width: 769px)" href="/css/1024.css">
+	<link rel="stylesheet" media="only screen and (max-width: 768px) and (min-width: 481px)" href="/css/768.css">
+	<link rel="stylesheet" media="only screen and (max-width: 480px)" href="/css/480.css">
+
+<!-- All JavaScript at the bottom, except for Modernizr which enables HTML5 elements and feature detects -->
+	<script src="js/modernizr-2.5.3-min.js"></script>
+
+	<style type="text/css">
+
+	/*  THIS IS JUST TO GET THE GRID TO SHOW UP.  YOU DONT NEED THIS IN YOUR CODE */
+
+	#maincontent .col {
+		background: #ccc;
+		background: rgba(204, 204, 204, 0.85);
+
+	}
+
+	</style>
+
+
+
+
+
  </head>
 	<body>
+		<div id="skiptomain"><a href="#maincontent">skip to main content</a></div>
+
+<div id="wrapper">
+	<div id="headcontainer">
+		<header>
+		<h1>Responsive Grid System</h1>
+		<h2>HTML Example</h2>
+		<p class="introtext">You're gonna have to view the source to grab the code here.</p>
+		</header>
+	</div>
 	<header>
 	<div ID="header"></div>
 	</header>
@@ -32,7 +118,51 @@
 
 		<div><h2>STEP 4</h2><p class="clear">Once you've achieved your goal, draw in Daruma's other eye to say THANK YOU!</p></div>
 
+		<div id="maincontentcontainer">
+		<div id="maincontent">
+
+			<div class="section group">
+			<h3>Two Columns</h3>
+			</div>
+
+			<div class="section group example">
+				<div class="col span_1_of_2">
+				1 of 2
+				</div>
+				<div class="col span_1_of_2">
+				1 of 2
+				</div>
+			</div>
+
+			<div class="section group example">
+			<h3>Three Columns</h3>
+			</div>
+
+			<div class="section group">
+				<div class="col span_1_of_3">
+				1 of 3
+				</div>
+				<div class="col span_1_of_3">
+				1 of 3
+				</div>
+				<div class="col span_1_of_3">
+				1 of 3
+				</div>
+			</div>
+
+	<!-- JavaScript at the bottom for fast page loading -->
+
+	<!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if necessary -->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script>window.jQuery || document.write('<script src="js/jquery-1.7.2.min.js"><\/script>')</script>
+
+	<!--[if (lt IE 9) & (!IEMobile)]>
+	<script src="js/selectivizr-min.js"></script>
+	<![endif]-->
+
+
+	<!-- More Scripts-->
+	<script src="js/responsivegridsystem.js"></script>		
 			
-			
-	</body> 
+</body> 
 </html>
